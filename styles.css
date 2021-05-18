@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+body{
+    font-family: 'Manrope', sans-serif;
+}
+
+.top-menu-left{
+    float:left;
+    display:flex;
+    list-style-type: none;
+
+}
+.top-menu-right{
+    float: right;
+    display:flex;
+    list-style-type: none;
+    margin-right:40px;
+   
+}
+.top{
+    padding-left:10px;
+    text-decoration: none;
+
+}
+.title{
+    display: flex;
+    margin: 0 auto;
+    padding-top:60px;
+    font-size:45px;
+    padding-bottom:30px;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+.under-form-button{
+    display: flex;
+    justify-content: center;
+    padding-top:30px;
+   
+    background: white;
+
+}
+button:hover{
+    background:rgb(252, 249, 249);
+    border:rgb(240, 240, 240) 1px solid;
+    border-radius: 10px;
+   
+}
+.google-cta{
+    display: flex;
+    justify-content: center;
+    padding-top:40px;
+}
+.footer-block p{
+    display: flex;
+    justify-content: center;
+    padding-top:10%;
+}
+ .bottom-right{
+    display: flex;
+    float: right;
+    list-style-type: none;
+    padding-right:25%;
+   
+
+}
+.bottom-left{
+    display: flex;
+    float:left;
+    list-style-type: none;
+    padding-left:25%;
+   
+   
+}
+.footer-block a{
+    padding-left:10px;
+    text-decoration: none;
+   
+}
+.footer-block ul{
+    padding-top:40px;
+
+}
+input[type=text]{
+    width:400px;
+    border-radius:20px;
+    border:1px solid lightgray;
+    padding:11px;
+    
+}
+input[type=text]:hover{
+  box-shadow:2px 2px 4px lightgray; 
+}
+span.images{
+  margin-right:4px;
+    margin-left:1%;
+    
+    
+}
